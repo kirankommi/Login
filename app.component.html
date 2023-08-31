@@ -1,55 +1,12 @@
-<div class="page-holder align-items-center py-4 bg-info vh-100 bg">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-7 col-xl-5 ms-xl-auto px-lg-4 text-center text-primary">
-          <h1 class="mb-4">
-            <label style="color: white;">Reliable. Proven?</label>  
-            <br class="d-none d-lg-inline">
-            <label style="color: black;">Name that is trusted for 25 years!?</label> 
-            
-          </h1>
-          <p style="color: white;">100+ Banks and over 250,000 of their corporate customers supported by FactorIn</p>
-          
-        </div>
-        <div class="col-lg-5 px-lg-4">
-          <div class="card">
-            <div class="card-header text-white bg-primary">
-              <div class="card-heading">Login</div>
-            </div>
-            <div class="card-body">
-              <form id="loginForm">
-                <div class="form-group mb-3">
-                  <label>Company</label>  
-                  <select class="form-control">  
-                      <option>CONCENTRIX PVT LTD</option>  
-                      <option>Choose Website</option> 
-                  </select>
-                </div>
-                <div class="form-group mb-3">
-                  <label>Email address</label>
-                  <input class="form-control" id="floatingInput" required>
-                </div>
-                <div class="form-group mb-3">
-                  <label>Password</label>
-                  <input class="form-control" id="floatingPassword" type="password" required>
-                </div>
-                <button class="btn btn-primary" type="button">Sign In</button>
-                &nbsp;
-                <button class="btn btn-primary" type="button">Close</button>
-              </form>
-            </div>
-          </div>
-        </div>
-       
-      </div>
+<div class="container">
+  <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/Employee">Employee</a>
+        </li>
+      </ul>
     </div>
-  </div>
-
-<router-outlet></router-outlet>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
